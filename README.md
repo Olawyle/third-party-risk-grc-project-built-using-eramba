@@ -72,17 +72,17 @@ Solvane Cloud Technologies relies on 13 third-party vendors spanning cloud infra
 ### 4.1 Risk Classifications
 Defined Likelihood (Rare → Almost Certain) and Impact (Insignificant → Severe) scales, each 1–5, in eramba.
 
-`![Risk Classifications](screenshots/01-classifications.png)`
+![Risk Classifications](screenshots/01-classifications.png)
 
 ### 4.2 Risk Calculation Method
 Configured Single Matrix – Multiplication (Likelihood × Impact) as the scoring formula.
 
-`![Calculation Method](screenshots/02-calculation-method.png)`
+![Calculation Method](screenshots/02-calculation-method.png)
 
 ### 4.3 Risk Appetite Matrix
 Built the full 5×5 threshold matrix, mapping all 25 Likelihood/Impact combinations to Low/Medium/High/Critical bands.
 
-`![Risk Matrix](screenshots/03-risk-matrix.png)`
+![Risk Matrix](screenshots/03-risk-matrix.png)
 
 ### 4.4 Full Vendor Population — Risk Scored
 All 13 vendors created as Third Party records and individually risk-scored (inherent and residual, via a documented Risk Treatment decision per vendor). The population spans the full tier range:
@@ -96,8 +96,8 @@ All 13 vendors created as Third Party records and individually risk-scored (inhe
 
 Two vendors illustrate the model deliberately **not** improving residual risk where no real control exists yet (Zendesk, Gusto — both tied to open, unremediated findings), rather than optimistically assuming "Mitigate" alone reduces risk.
 
-`![Third Party Risks list](screenshots/04-full-vendor-list.png)`
-`![Brightline risk detail](screenshots/04b-brightline-high-risk.png)`
+![Third Party Risks list](screenshots/04-full-vendor-list.png)
+![Brightline risk detail](screenshots/04b-brightline-high-risk.png)
 
 ### 4.5 Evidence Workbench
 Built and populated a companion Excel workbook (`Vendor_Evidence_Remediation_Workbench.xlsx`) with six tabs — covering everything eramba Community can't natively structure (custom fields are an Enterprise-only feature):
@@ -113,7 +113,7 @@ Built and populated a companion Excel workbook (`Vendor_Evidence_Remediation_Wor
 ### 4.6 Review Automation
 Confirmed eramba's automatic review-record generation, tying each vendor's Next Review Date to a recurring review cycle — shorter cadences (3–6 months) for vendors with open findings, longer cadences (18–24 months) for Low-tier vendors.
 
-`![Review Cycle](screenshots/06-reviews.png)`
+![Review Cycle](screenshots/06-reviews.png)
 
 ---
 
@@ -142,7 +142,7 @@ A Power BI dashboard was built on top of the Risk Register and Findings Log data
 - **Residual risk exposure by vendor** — post-treatment risk score per vendor, highlighting where risk remains concentrated (Brightline Dev Partners, CloudSecure)
 - **Findings by status** — open vs. closed, a quick health check on remediation progress
 
-`![Power BI Dashboard](screenshots/07-powerbi-dashboard.png)`
+![Power BI Dashboard](screenshots/07-powerbi-dashboard.png)
 
 ---
 
