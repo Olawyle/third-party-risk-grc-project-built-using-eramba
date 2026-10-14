@@ -26,8 +26,8 @@ Solvane Cloud Technologies relies on 13 third-party vendors spanning cloud infra
 - [x] Full 5×5 risk appetite matrix built and saved
 - [x] All 13 vendors created and individually risk-scored (inherent + residual)
 - [x] Evidence workbench built and populated (Vendor Inventory, Findings Log, Remediation Tracker)
+- [x] Power BI reporting layer built on Risk Register and Findings Log data
 - [ ] Evidence collection in progress (Evidence Tracker — 0/46 items received)
-- [ ] Power BI reporting layer
 
 ---
 
@@ -135,9 +135,14 @@ Full detail — including remediation actions, owners, and target dates — live
 
 ## 6. Results / Dashboard
 
-*(To be added once the Power BI reporting layer is built.)*
+A Power BI dashboard was built on top of the Risk Register and Findings Log data, giving a single-page view of:
 
-`![Dashboard](screenshots/06-dashboard.png)`
+- **Vendor population by tier** — how the 13-vendor portfolio (plus the CloudSecure practice record) breaks down across Critical/High/Medium/Low
+- **Findings by severity** — the 7 tracked findings split across Medium/High/Low
+- **Residual risk exposure by vendor** — post-treatment risk score per vendor, highlighting where risk remains concentrated (Brightline Dev Partners, CloudSecure)
+- **Findings by status** — open vs. closed, a quick health check on remediation progress
+
+`![Power BI Dashboard](screenshots/07-powerbi-dashboard.png)`
 
 ---
 
