@@ -108,7 +108,7 @@ Built and populated a companion Excel workbook (`Vendor_Evidence_Remediation_Wor
 - **Findings Log** — all 7 findings with inherent/residual risk and status
 - **Remediation Tracker** — one action per finding, with owner and target date
 
-`![Evidence Workbench](screenshots/05-evidence-workbench.png)`
+![Evidence Workbench](screenshots/05-evidence-workbench.png)
 
 ### 4.6 Review Automation
 Confirmed eramba's automatic review-record generation, tying each vendor's Next Review Date to a recurring review cycle — shorter cadences (3–6 months) for vendors with open findings, longer cadences (18–24 months) for Low-tier vendors.
@@ -150,7 +150,7 @@ A Power BI dashboard was built on top of the Risk Register and Findings Log data
 
 - **eramba Community Edition** — GRC platform, self-hosted via Docker on Ubuntu 26.04 (VMware)
 - **Microsoft Excel** — evidence tracking, vendor operational metadata
-- **Power BI** — reporting/visualization *(planned)*
+- **Power BI** — reporting layer (single-page TPRM dashboard)
 - **ISO/IEC 27001:2022** — control framework reference
 
 ---
@@ -158,17 +158,18 @@ A Power BI dashboard was built on top of the Risk Register and Findings Log data
 ## 8. Repository Structure
 
 ```
-├── README.md
-├── Vendor_Evidence_Remediation_Workbench.xlsx
-├── screenshots/
-│   ├── 01-classifications.png
-│   ├── 02-calculation-method.png
-│   ├── 03-risk-matrix.png
-│   ├── 04-aws-risk.png
-│   ├── 05-evidence-workbench.png
-│   └── 06-dashboard.png
-└── docs/
-    └── Project_3_Implementation_Roadmap.docx
+   ├── README.md
+   ├── excel/
+   │   └── Vendor_Evidence_Remediation_Workbench.xlsx
+   └── screenshots/
+       ├── 01-classifications.png
+       ├── 02-calculation-method.png
+       ├── 03-risk-matrix.png
+       ├── 04-full-vendor-list.png
+       ├── 04b-brightline-high-risk.png
+       ├── 05-evidence-workbench.png
+       ├── 06-reviews.png
+       └── 07-powerbi-dashboard.png
 ```
 
 ---
